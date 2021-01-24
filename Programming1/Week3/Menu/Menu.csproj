@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E7BE3E5F-E580-4C13-A732-28B9C1A61B58}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Menu</RootNamespace>
+    <AssemblyName>Menu</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Assignment10\Assignment10.csproj">
+      <Project>{899b2eff-8acd-4605-9752-ac401be811a8}</Project>
+      <Name>Assignment10</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment11\Assignment11.csproj">
+      <Project>{7dfa16c0-71e5-4934-a14b-ca7dcecd3e07}</Project>
+      <Name>Assignment11</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment12\Assignment12.csproj">
+      <Project>{0ffc75fc-e1c2-48bb-a063-d2abd229e948}</Project>
+      <Name>Assignment12</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment13\Assignment13.csproj">
+      <Project>{f1b8c8f1-5ddf-44b4-8388-f802a322bf12}</Project>
+      <Name>Assignment13</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment14\Assignment14.csproj">
+      <Project>{c69cfe0f-607f-4909-a577-2eff6370ceef}</Project>
+      <Name>Assignment14</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment1\Assignment1.csproj">
+      <Project>{3cbd70d5-2895-43bc-88d5-6b75d2ba4cf2}</Project>
+      <Name>Assignment1</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment2\Assignment2.csproj">
+      <Project>{e1666cd6-e77d-40b9-9c8c-753b66661c21}</Project>
+      <Name>Assignment2</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment3\Assignment3.csproj">
+      <Project>{a72dfba6-3563-40e3-8ddd-dd735b16dcea}</Project>
+      <Name>Assignment3</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment4\Assignment4.csproj">
+      <Project>{0d2d2980-806f-4b14-a013-74275494feb3}</Project>
+      <Name>Assignment4</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment5\Assignment5.csproj">
+      <Project>{82b22308-9b67-41fe-a870-de9d5c68b1e3}</Project>
+      <Name>Assignment5</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment6\Assignment6.csproj">
+      <Project>{16ca8e43-66b4-4f93-a0ef-8ccf41838151}</Project>
+      <Name>Assignment6</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment7\Assignment7.csproj">
+      <Project>{693197d9-498c-4c4d-b8bb-58e4ca8af354}</Project>
+      <Name>Assignment7</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment8\Assignment8.csproj">
+      <Project>{119efb85-f1a7-4bc4-b285-5c6c3852c924}</Project>
+      <Name>Assignment8</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Assignment9\Assignment9.csproj">
+      <Project>{4463df13-ca54-41a5-827c-a2f544624a54}</Project>
+      <Name>Assignment9</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

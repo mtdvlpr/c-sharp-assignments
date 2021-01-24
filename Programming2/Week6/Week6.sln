@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment1", "Assignment1\Assignment1.csproj", "{372F76E4-201B-44FA-87CA-4EA6874C828C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assignment4", "Assignment4\Assignment4.csproj", "{318D104E-A9D6-4060-9BA9-406AA8ABD393}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Chess", "ChessGame\Chess.csproj", "{0A43475C-0A42-48E5-A2D8-D4DD5D26186C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{372F76E4-201B-44FA-87CA-4EA6874C828C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{372F76E4-201B-44FA-87CA-4EA6874C828C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{372F76E4-201B-44FA-87CA-4EA6874C828C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{372F76E4-201B-44FA-87CA-4EA6874C828C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{318D104E-A9D6-4060-9BA9-406AA8ABD393}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{318D104E-A9D6-4060-9BA9-406AA8ABD393}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{318D104E-A9D6-4060-9BA9-406AA8ABD393}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{318D104E-A9D6-4060-9BA9-406AA8ABD393}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A43475C-0A42-48E5-A2D8-D4DD5D26186C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A43475C-0A42-48E5-A2D8-D4DD5D26186C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A43475C-0A42-48E5-A2D8-D4DD5D26186C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A43475C-0A42-48E5-A2D8-D4DD5D26186C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F401EA26-568A-446C-B07D-96671F8A1386}
+	EndGlobalSection
+EndGlobal
